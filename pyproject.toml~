@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "geocoding"
+version = "0.1.0"
+description = ""
+authors = ["Stephen Smith, OpenBible.info"]
+license = "CC BY 4.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.10.9"
+black = "^23.3.0"
+jsonlines = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
